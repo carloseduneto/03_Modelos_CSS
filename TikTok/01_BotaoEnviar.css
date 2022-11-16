@@ -1,3 +1,12 @@
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secundaria{
+    display: grid;
+    place-items: center;
+}
 button.enviar {
     font-size: 22px;
     background-color: gold;
