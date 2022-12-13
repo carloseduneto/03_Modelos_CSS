@@ -1,3 +1,5 @@
+
+
 .principal{
     display: flex;
     align-items: center;
@@ -57,3 +59,4 @@ button.enviar:active {
         transform: translateX(-10px)
     }
 }
+
