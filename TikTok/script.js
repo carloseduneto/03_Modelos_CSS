@@ -1,3 +1,7 @@
-const year=document.querySelector("#ano")
+const ano=document.querySelector("#ano")
 
-ano.innerHTML=new Date(). getFullYear()
+let variavel
+variavel+=
+variavel+=
+
+ano.innerHTML= "© "+new Date(). getFullYear()
