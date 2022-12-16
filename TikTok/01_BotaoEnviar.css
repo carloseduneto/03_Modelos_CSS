@@ -23,6 +23,8 @@ button.enviar {
     transition: all 0.2s;
 }
 
+
+
 button.enviar span {
     display: block;
     margin-left: 0.3em;

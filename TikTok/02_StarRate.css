@@ -1,0 +1,30 @@
+.bg{
+    /* position: absolute;: */
+    height: 50%;
+    width: 100vw;
+    background: linear-gradient(rgb(255, 81, 0), #ff6f00);
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    font-size: 15px;
+    width: 200px;
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
+    /* left: 50%; */
+    /* top: 50%; */
+    
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(black);
+
+}

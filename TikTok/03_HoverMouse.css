@@ -1,0 +1,26 @@
+.caixa{
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction:;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.align{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border: solid green;
+    height: 25%;
+    width: 25%;
+    
+}
+
+.box2{
+    background: tomato;
+    height: 20px;
+    width: 20px;
+}
