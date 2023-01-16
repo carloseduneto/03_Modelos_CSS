@@ -2,6 +2,24 @@
     margin: 0px;
 } */
 
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+
 .text{
     font-family: 'Quicksand', sans-serif;
     color: #efefef;
@@ -106,6 +124,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     border-radius: 20px;
+    background-color: whitesmoke;
 }
 
 
