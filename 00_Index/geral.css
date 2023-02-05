@@ -2,6 +2,12 @@
     margin: 0px;
 } */
 
+.topo{
+    width: 100px;
+}
+
+h
+
 a:hover{
     text-decoration: none;
 }
@@ -46,7 +52,7 @@ header{
 }
 
 .simple{
-    font-size: 70px;
+    font-size: 60px;
 
 }
 

@@ -1,0 +1,248 @@
+.bg{
+    background-color: rgb(0, 0, 116);
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height:300px;
+    width: 300px;
+    /* border: 1px solid; */
+    /* color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lua{
+    background-color: #39beff;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    margin:auto;
+    /* overflow: hidden; */
+}
+
+.cratera{
+    background-color: #31b4ff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.cratera::before{
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border-radius: 50px;
+    box-shadow: -4px 0 0 1px #1ca4f9;
+    top: px;
+    left: 1px;
+}
+
+.cratera1{
+    top: 100px;
+    left: 99px;
+    transform: scale(0.9);
+}
+
+.cratera2{
+    bottom: px;
+    left: 90px;
+    transform: scale(0.6);
+}
+
+.cratera3{
+    bottom: -5px;
+    left: 8px;
+    transform: scale(0.75);
+}
+
+.cratera4{
+    bottom: 35px;
+    left: 50px;
+    transform: scale(1.1);
+}
+.cratera5{
+    bottom: -1px;
+    left: 20px;
+    transform: scale(0.65);
+}
+
+.sombra{
+    height: 141px;
+    width: 141px;
+    box-shadow: 15px 0 0 5px rgb(0,0,0,0.15);
+    border-radius: 50%;
+    position: relative;
+    bottom: 120px;
+    right: 11px;
+}
+
+.olho{
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    position: relative;
+    animation: 5s piscar infinite linear;
+}
+
+.olhoEsquerdo{
+    bottom:200px;
+    left: 45px;
+}
+
+.olhoDireito{
+    top:-190px;
+    left: 80px;
+}
+
+.boca{
+    height: 5px;
+    width: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    position: relative;
+    bottom: 195px;
+    left: 60px;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+
+/* .brilho{
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.brilhoEsquerdo{
+    position: relative;
+    bottom: 209px;
+    left: 52px;
+}
+
+.brilhoDireito{
+ position: relative;
+ bottom: 213px;
+ left: 81px;
+} */
+
+.blush{
+    width: 5.5px;
+    height: 5.5px;
+    border-radius: 100%;
+    background-color: #1ca4f9;
+}
+
+.blushEsquerdo{
+    position: relative;
+    bottom: 210px;
+    left: 40px;
+}
+
+.blushDireito{
+    position: relative;
+    bottom: 208px;
+    left: 95px;
+}
+
+.orbita{
+    /* border: 1px solid white; */
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    animation: spin 5s infinite linear;
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes piscar{
+    100%{
+        transform: scaleY(1);
+    }
+    80%{
+        transform: scaleY(1);
+    }
+    60%{
+        transform: scaleY(1);
+    }
+    55%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0);
+    }
+    45%{
+        transform: scaleY(1);
+    }
+    40%{
+        transform: scaleY(1);
+    }
+    20%{
+        transform: scaleY(1);
+    }
+    0%{
+        transform: scaleY(1);
+    }
+
+}
+.foguete{
+    position: relative;
+
+    background-color: #39beff;
+    border-radius: 50% 50% 0 0;
+    height: 15px;
+    width: 40px;
+    
+    left: -13px;
+    top: 100px;
+}
+
+.foguete::before{
+    position: absolute;
+    content: "";
+    
+    height: 40px;
+    width: 20px;
+    background-color: #fafcf7;
+    z-index: 9;
+    border-radius: 50% 50% 0 0;
+    right: 10px;
+    bottom:0px;
+}
+
+.foguete::after{
+    position: absolute;
+    content: "";
+    background-color: #31b4ff;
+    height: 4px;
+    width: 15px;
+    border-radius: 0 0 2px 2px;
+    bottom: -4px;
+    left: 12px;
+}
+
+.janela{
+    position: relative;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border: solid 2px grey;
+    border-radius: 50%;
+    top:-15px;
+    right: -14px;
+    z-index: 100;
+
+}
