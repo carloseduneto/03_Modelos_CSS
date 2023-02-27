@@ -11,7 +11,7 @@ let events={
         over : "click",
     }, 
     touch:{
-        over: "touchstar",
+        over: "touchstart",
     }
 };
 
@@ -24,7 +24,7 @@ const isTouchDevice = () => {
         deviceType = "touch";
         return true;
     }
-    catch(e){
+    catch(element){
         deviceType = "mouse";
         return false;
     }
